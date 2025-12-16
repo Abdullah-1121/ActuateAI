@@ -1,0 +1,82 @@
+# Dependencies
+node_modules/
+jspm_packages/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Optional eslint cache
+.eslintcache
+
+# Output of `npm pack`
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# Environment variables
+.env*
+!.env.example
+
+# Docusaurus
+.build/
+.dist/
+.temp/
+.cache/
+
+# Production
+build/
+dist/
+public/
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt/
+dist/
+
+# Remix
+public/build/
+remix.config.js
+
+# Vue
+.vuepress/dist
+.vuepress/.cache
+
+# Serverless
+.serverless/
+
+# FuseBox
+.fusebox/
+
+# Parcel
+.cache/
+.parcel-cache
+
+# Webpack
+/webpack-stats.json
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Stryker
+stryker-report/
